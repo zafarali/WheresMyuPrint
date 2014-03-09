@@ -1,0 +1,146 @@
+{ "printers": [{"building": "Adams", "floor": "1", "location": "1", "guest": false, "color": false }
+{"building": "Adams", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "Barton - Mac Campus", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Barton - Mac Campus", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Barton - Mac Campus", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Barton - Mac Campus", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Barton - Mac Campus", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Barton - Mac Campus", "floor": "3", "location": "Hallway", "guest": false, "color": false }
+{"building": "Birks", "floor": "1", "location": "115", "guest": false, "color": false }
+{"building": "Bishop Mountain Hall", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "Bronfman", "floor": "B", "location": "Hallway", "guest": false, "color": false }
+{"building": "Bronfman", "floor": "B", "location": "007", "guest": false, "color": false }
+{"building": "Bronfman", "floor": "B", "location": "007", "guest": false, "color": false }
+{"building": "Bronfman", "floor": "B", "location": "007", "guest": false, "color": false }
+{"building": "Bronfman", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Bronfman", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Bronfman", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Bronfman", "floor": "3", "location": "350", "guest": false, "color": false }
+{"building": "Bronfman", "floor": "3", "location": "350", "guest": false, "color": false }
+{"building": "Bronfman", "floor": "4", "location": "Hallway", "guest": false, "color": false }
+{"building": "Burnside Hall", "floor": "B", "location": "Hallway", "guest": false, "color": false }
+{"building": "Burnside Hall", "floor": "5", "location": "5th Floor", "guest": false, "color": false }
+{"building": "Burnside Hall", "floor": "5", "location": "5th Floor", "guest": false, "color": false }
+{"building": "Burnside Hall", "floor": "5", "location": "5th Floor", "guest": false, "color": false }
+{"building": "Burnside Hall", "floor": "1", "location": "1104", "guest": false, "color": false }
+{"building": "Carrefour Sherbrooke", "floor": "3", "location": "312", "guest": false, "color": false }
+{"building": "Chancellor Day Hall", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "Currie Gym", "floor": "2", "location": "207", "guest": false, "color": false }
+{"building": "Education", "floor": "B", "location": "Hallway", "guest": false, "color": false }
+{"building": "Education", "floor": "G", "location": "Hallway", "guest": false, "color": false }
+{"building": "Education", "floor": "1", "location": "113", "guest": false, "color": false }
+{"building": "Education", "floor": "1", "location": "113", "guest": false, "color": false }
+{"building": "Education", "floor": "1", "location": "113", "guest": false, "color": false }
+{"building": "Education", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Education", "floor": "3", "location": "328", "guest": false, "color": false }
+{"building": "Education", "floor": "4", "location": "Hallway", "guest": false, "color": false }
+{"building": "Education", "floor": "5", "location": "513", "guest": false, "color": false }
+{"building": "Education", "floor": "5", "location": "Hallway", "guest": false, "color": false }
+{"building": "Education", "floor": "6", "location": "Hallway", "guest": false, "color": false }
+{"building": "Ferrier", "floor": "3", "location": "303", "guest": false, "color": false }
+{"building": "Ferrier", "floor": "3", "location": "303", "guest": false, "color": false }
+{"building": "Ferrier", "floor": "3", "location": "303", "guest": false, "color": false }
+{"building": "Ferrier", "floor": "4", "location": "Hallway", "guest": false, "color": false }
+{"building": "Gelber Law library", "floor": "B", "location": "1116", "guest": false, "color": false }
+{"building": "Gelber Law Library", "floor": "1", "location": "1301", "guest": false, "color": false }
+{"building": "Gelber Law Library", "floor": "1", "location": "1301", "guest": false, "color": false }
+{"building": "Gelber Law Library", "floor": "1", "location": "1116", "guest": false, "color": false }
+{"building": "Gelber Law Library", "floor": "2", "location": "2018", "guest": false, "color": false }
+{"building": "Gelber Law Library", "floor": "3", "location": "3055", "guest": false, "color": false }
+{"building": "Gelber Law Library", "floor": "4", "location": "4055", "guest": false, "color": false }
+{"building": "Gelber Law Library", "floor": "5", "location": "5055", "guest": false, "color": false }
+{"building": "Lady Meredith AnneY", "floor": "1", "location": "102", "guest": false, "color": false }
+{"building": "Laird Hall - Mac Campus", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "Leacock", "floor": "B", "location": "Hallway", "guest": false, "color": false }
+{"building": "Leacock", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "Leacock", "floor": "3", "location": "Hallway", "guest": false, "color": false }
+{"building": "Macdonald Engineering", "floor": "1", "location": "50", "guest": false, "color": false }
+{"building": "Macdonald Engineering", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Macdonald Engineering", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Macdonald Engineering", "floor": "3", "location": "Hallway", "guest": false, "color": false }
+{"building": "Macdonald Engineering", "floor": "4", "location": "Hallway", "guest": false, "color": false }
+{"building": "Macdonald Harrington", "floor": "B", "location": "G15", "guest": false, "color": false }
+{"building": "Macdonald Harrington", "floor": "1", "location": "103", "guest": false, "color": false }
+{"building": "Macdonald Harrington", "floor": "4", "location": "414", "guest": false, "color": false }
+{"building": "Macdonald Harrington", "floor": "4", "location": "410", "guest": false, "color": false }
+{"building": "Macdonald Stewart - Mac Campus", "floor": "2", "location": "MS2-027", "guest": false, "color": false }
+{"building": "Macdonald Stewart - Mac Campus", "floor": "2", "location": "MS2-027", "guest": false, "color": false }
+{"building": "Macdonald-Stewart Library", "floor": "M", "location": "Hallway", "guest": false, "color": false }
+{"building": "Macdonald-Stewart Library", "floor": "M", "location": "Hallway", "guest": false, "color": false }
+{"building": "Macdonald-Stewart Library", "floor": "3", "location": "Hallway", "guest": false, "color": false }
+{"building": "Macdonald-Stewart Library", "floor": "3", "location": "Hallway", "guest": false, "color": false }
+{"building": "Macdonald-Stewart Library", "floor": "4", "location": "413", "guest": false, "color": false }
+{"building": "Macdonald-Stewart Library", "floor": "4", "location": "Hallway", "guest": false, "color": false }
+{"building": "Macdonald-Stewart Library", "floor": "5", "location": "Hallway", "guest": false, "color": false }
+{"building": "Macdonald-Stewart Library", "floor": "6", "location": "Hallway", "guest": false, "color": false }
+{"building": "McConnell Engineering", "floor": "1", "location": "10", "guest": false, "color": false }
+{"building": "McConnell Engineering", "floor": "5", "location": "Hallway", "guest": false, "color": false }
+{"building": "McIntyre Medical", "floor": "3", "location": "323", "guest": false, "color": false }
+{"building": "McIntyre Medical", "floor": "3", "location": "323", "guest": false, "color": false }
+{"building": "McIntyre Medical", "floor": "3", "location": "323", "guest": false, "color": false }
+{"building": "McIntyre Medical", "floor": "3", "location": "323", "guest": false, "color": false }
+{"building": "McIntyre Medical", "floor": "5", "location": "501", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "B", "location": "MS-37", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "1", "location": "M1-57", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "1", "location": "M1-37", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "1", "location": "M1-37", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "1", "location": "M1-37", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "1", "location": "M1-37", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "1", "location": "M1-37", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "1", "location": "MS-80", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "3", "location": "Hallway", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "4", "location": "Hallway", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "5", "location": "Hallway", "guest": false, "color": false }
+{"building": "McLennan Library", "floor": "6", "location": "Hallway", "guest": false, "color": false }
+{"building": "Morrice Hall", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "Morrice Hall", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "New Music", "floor": "3", "location": "A301", "guest": false, "color": false }
+{"building": "New Music", "floor": "3", "location": "A301", "guest": false, "color": false }
+{"building": "New Music", "floor": "3", "location": "A301", "guest": false, "color": false }
+{"building": "New Music", "floor": "4", "location": "A406", "guest": false, "color": false }
+{"building": "New Music", "floor": "5", "location": "A506", "guest": false, "color": false }
+{"building": "New Music", "floor": "5", "location": "A513", "guest": false, "color": false }
+{"building": "New Residence Hall", "floor": "B", "location": "A14", "guest": false, "color": false }
+{"building": "New Residence Hall", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "Otto Maass", "floor": "B", "location": "Hallway", "guest": false, "color": false }
+{"building": "Otto Maass", "floor": "3", "location": "Hallway", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "B", "location": "RB-09A", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "B", "location": "RS_22", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "B", "location": "RS-22", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "B", "location": "RS-22", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "1", "location": "17", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "1", "location": "17", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "1", "location": "17", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "1", "location": "17", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "1", "location": "17", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "1", "location": "17", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "1", "location": "17", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "2", "location": "R2-19", "guest": false, "color": false }
+{"building": "Redpath Library", "floor": "3", "location": "RS-322", "guest": false, "color": false }
+{"building": "Royal Victoria College", "floor": "1", "location": "Reception", "guest": false, "color": false }
+{"building": "Sherbrooke 410 - La Citadelle", "floor": "M", "location": "Reception", "guest": false, "color": false }
+{"building": "Sherbrooke 688", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Sherbrooke 688", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "Sherbrooke 688", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "Solin Hall ", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "Solin Hall ", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "SSMU Building", "floor": "1", "location": "Hallway", "guest": false, "color": false }
+{"building": "Stewart Biology", "floor": "2", "location": "Hallway - North", "guest": false, "color": false }
+{"building": "Stewart Biology", "floor": "4", "location": " N4/17", "guest": false, "color": false }
+{"building": "Stewart Biology", "floor": "7", "location": "Hallway - North", "guest": false, "color": false }
+{"building": "Stewart Biology", "floor": "G", "location": "Hallway - South", "guest": false, "color": false }
+{"building": "Strathcona Anatomy & Dentistry", "floor": "2", "location": "2-21", "guest": false, "color": false }
+{"building": "Strathcona Music", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Strathcona Music", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Strathcona Music", "floor": "B", "location": "cafeteria", "guest": false, "color": false }
+{"building": "Strathcona Music", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+{"building": "Trottier", "floor": "M", "location": "Cafeteria", "guest": false, "color": false }
+{"building": "Trottier", "floor": "3", "location": "Hallway", "guest": false, "color": false }
+{"building": "Wilson Hall", "floor": "M", "location": "Hallway", "guest": false, "color": false }
+{"building": "Wilson Hall", "floor": "4", "location": "Hallway", "guest": false, "color": false }
+{"building": "Wong", "floor": "G", "location": "Hallway", "guest": false, "color": false }
+{"building": "Wong", "floor": "M", "location": "80", "guest": false, "color": false }
+{"building": "Wong", "floor": "1", "location": "1120", "guest": false, "color": false }
+{"building": "Wong", "floor": "2", "location": "Hallway", "guest": false, "color": false }
+]}
