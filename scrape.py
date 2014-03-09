@@ -4,7 +4,7 @@ url = "http://kb.mcgill.ca/kb/article?articleid=2656&source=article&cid=2&islink
 page = urllib2.urlopen(url).read()
 soup = BeautifulSoup(page)
 f = open("public.json", "w")
-f.write("{ \"printers\": [")
+f.write("[")
 end = False
 for table in soup.find('table', {"id": "kbTable"}):
 	if end: break
@@ -20,9 +20,9 @@ for table in soup.find('table', {"id": "kbTable"}):
 				color="true" 
 			else: 
 				color="false"
-			f.write('{"building": "%s", "floor": "%s", "location": "%s", "guest": %s, "color": %s }\n' % \
+			f.write('{"building": "%s", "floor": "%s", "location": "%s", "guest": %s, "color": %s },' % \
 				(tds[0].text, tds[1].text[0], tds[2].text, guest, color))
 		except IndexError:
 			end = True;
-f.write("]}")
+f.write("{}]")
 f.close()

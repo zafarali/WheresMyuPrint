@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+	<title>Where is the closest uPrint?</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.js"></script>
+	<script src="script.js"></script>
+</head>
+<body ng-controller="UPCtrl">
+<div>
+Where is the closest uPrint?
+<ul>
+<li ng-repeat="printer in printers">
+<span>{{printer.building + " "+ printer.floor +" floor"+ "in "+printer.location}}</span>
+<span>color printing? {{printer.color}}<br />
+guest access? {{printer.guest}}</span>
+</li></ul>
+</div>
+</body>
+</html>
