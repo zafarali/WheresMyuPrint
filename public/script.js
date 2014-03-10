@@ -1,9 +1,58 @@
 var UPrintSearchApp = angular.module('App', []);
-
+var whereAgain2 = function(loc){
+			if(loc == 'Hallway'){
+				loc = " in the hallway";
+			}else{
+				loc = " in room "+loc;
+			}
+		return loc;
+}
 UPrintSearchApp.controller('UPCtrl', function($scope, $http){
 	$http.get('/api/printers').success(function(data){
+		for(var row in data){
+		data[row].tit = data[row].building+" building floor "+data[row].floor+" floor "+whereAgain2(data[row].location);
+		}
+		data.pop();
 		$scope.printers = data;
+		$scope.whereAgain = function(loc){
+			if(loc == 'Hallway'){
+				loc = " in the hallway";
+			}else{
+				loc = " in room "+loc;
+			}
+		return loc;
+		}
+		$scope.colorMe = function(booval){
+			if(booval){
+				return "green";
+			}else{
+				return "red";
+			}
+		}
 	}).error(function(data, status, headers, config){
 		console.log("Something broke: "+status);
 	});
+});
+
+
+/*NEEDS WORK*/
+UPrintSearchApp.filter('patmatch', function(){
+	return function(items, searchText){
+		var found =[];
+		searchText = String(searchText);
+		var queries = searchText.split(" ");
+		console.log(queries)
+		angular.forEach(items, function(item){
+			var tital = item.tit.toLowerCase();
+			for(query in queries){
+			var ranking = 0;
+				if(tital.indexOf(queries[query]) >= 0) {
+					ranking +=1;
+					found.push(item);
+				//console.log("query: "+query+" found "+tital);
+				}
+			}
+		});
+		return found;
+	};
 });
