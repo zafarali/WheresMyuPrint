@@ -34,24 +34,19 @@ UPrintSearchApp.controller('UPCtrl', function($scope, $http){
 	});
 });
 
-
 /*NEEDS WORK*/
 UPrintSearchApp.filter('patmatch', function(){
 	return function(items, searchText){
+		if(typeof(searchText) == "undefined"){ searchText=""; }
 		var found =[];
 		searchText = String(searchText);
 		var queries = searchText.split(" ");
-		console.log(queries)
+		var re = new RegExp('(?=.*\\b'+queries.join('\\b)(?=.*\\b')+'\\b)', 'i');
 		angular.forEach(items, function(item){
 			var tital = item.tit.toLowerCase();
-			for(query in queries){
-			var ranking = 0;
-				if(tital.indexOf(queries[query]) >= 0) {
-					ranking +=1;
-					found.push(item);
-				//console.log("query: "+query+" found "+tital);
+				if(re.test(tital)) {
+				found.push(item);
 				}
-			}
 		});
 		return found;
 	};
