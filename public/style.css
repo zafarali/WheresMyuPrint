@@ -7,6 +7,47 @@
 }
 #main{
 	width:50%;
+	padding-top: 5%;
 }
-#iamat{font-size: 3em}
+h1{font-size: 3em}
+h2{font-size:2em;}
 input{font-size:1.0em;}
+li{
+	border:1px none;
+	padding: 0px 0px 0px 10px;
+	margin: 5px 0px 0px 2px;
+	border-radius: 4px;
+	background-color:#EDEDED;
+	list-style: none;
+	transition:background-color 0.1s linear;
+}
+li:hover{
+	background-color:#D5D4D6;
+}
+#infotext{width:50%;}
+#inspiration{
+position:fixed;
+width:100%;
+background-color:black;
+color:white;
+cursor: pointer;
+min-height: 5px;
+}
+#unravel{
+min-width:100%;
+display:inline-block;
+text-align: right;}
+
+#content{
+	text-align: center;
+	width:100%;
+	margin: 0 auto;
+	max-height:0;
+	overflow:hidden;
+	transition:max-height 0.75s ease-in-out;
+}
+#inspiration:hover > #content{
+	max-height: 500px;
+}
+#inspiration:hover{
+}
