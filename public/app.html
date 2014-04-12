@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+	<title>Where is the closest uPrint?</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.js"></script>
+	<script src="script.js"></script>
+	<script src="services.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body ng-controller="UPCtrl">
+	<div id="inspiration">
+		<div id="content">
+			<h1>Why?</h1>
+			<h3 id="infotext">Ever been stuck on campus (not your usual spot) in need of a uPrint Machine?<br />
+			This app takes the data provided by McGill KB to tell you very easily where those hidden gems are!<br />
+		</div>
+		<span id="unravel">about WheresMyuPrint</span>
+	</div>
+	<div id="main">
+	<h2 id="iamat">I am at... <input ng-model="query.tit" placeholder="Burnside Hall, Redpath, Library Wong..."></h2>
+	<h2>Closest uPrint is...</h2>
+	<ul>
+	<li ng-repeat="printer in printers | patmatch: query.tit">
+				<span><h3>{{printer.building + " Building on floor "+ printer.floor}}
+				{{whereAgain(printer.location)}}</h3>
+				</span>
+				<span style="color:{{colorMe(printer.color)}}">color printing </span> | 
+				<span style="color:{{colorMe(printer.guest)}}">guest access</span>
+	</li>
+	</ul>
+	</div>
+</body>
+</html>
