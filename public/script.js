@@ -1,7 +1,7 @@
 var UPrintSearchApp = angular.module('App', []);
 
 UPrintSearchApp.controller('UPCtrl', function($scope, $http){
-	$http.get('/api/printers').success(function(data){
+	$http.get('public.json').success(function(data){
 		for(var row in data){
 		data[row].tit = data[row].building+" building floor "+data[row].floor+" floor "+whereAgain2(data[row].location);
 		}
